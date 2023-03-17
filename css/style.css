@@ -1,0 +1,240 @@
+@font-face {
+   font-family: 'Poppins';
+   src: url(../fonts/poppins.woff2);
+}
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   font-family: 'Poppins';
+}
+
+.bg-ijo{
+   background-color: green;
+}
+
+.baris{
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+img{
+   max-width: 100%;
+}
+
+section{
+   margin-top: 80px;
+   margin-bottom: 80px;
+}
+h2{
+   font-size: 35px;
+   margin-bottom: 25px;
+}
+
+p.sub{
+   margin-bottom: 45px;
+}
+button{
+   border-radius: 5px;
+   border: none;
+}
+/* Navigasi */
+
+nav {
+  padding: 10px 100px;
+}
+
+nav .baris {
+   display: flex;
+   align-items: center;
+}
+
+.logo {
+   height: 40px;
+}
+
+nav button {
+   width: 100px;
+   height: 30px;
+}
+
+.navigasi {
+   display: flex;
+   list-style: none;
+   margin-right: 40px;
+   align-items: center;
+   margin-left: auto;
+}
+
+.navigasi li {
+   width: 100px;
+}
+
+.navigasi li a {
+   color: #fff;
+   text-decoration: none;
+}
+
+/* header */
+
+header .kanan {
+   width: 50%;
+}
+
+header{
+   padding: 40px 100px;
+}
+
+header .kiri h1{
+   margin-bottom: 25px
+}
+.detail{
+   margin-bottom: 30px;
+}
+header .cta img{
+   height: 40px;
+   width: 40px;
+   margin-right: 15px;
+}
+
+/* menu andalan */
+section.menu{
+   text-align: center;
+
+}
+section.menu .baris .produk{
+   width: 25%;
+}
+
+section.menu .produk .img{
+   margin-bottom: 25px;
+}
+
+section.menu .produk p{
+   font-weight: bold;
+}
+
+/* about us */
+section.about-us {
+   text-align: center;
+   
+}
+section.about-us p.tentang{
+   margin-bottom: 50px;
+   padding: 20px 150px;
+}
+section.about-us img{
+   margin-bottom: 30px;
+}
+
+/* team */
+ section.team{
+   text-align: center;
+} 
+section.team img{
+   width: 100%;
+   height: 100%;
+   margin-right: 30px;
+}
+.gabungan{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.team1, .team2, .team3, .team4{
+   width: 200px;
+   height: 200px;
+}
+.title , .title-desc {
+   text-align: center;
+ }
+ 
+ .title{
+   margin-bottom: 10px;
+ }
+ /* pendapat */
+ section{
+   padding: 40px 100px;
+   
+ }
+ 
+ .title , .title-desc {
+   text-align: center;
+ }
+ 
+ .title{
+   margin-bottom: 10px;
+ }
+
+ .card-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 40px;
+ }
+ 
+ .card{
+   padding: 40px 20px;
+   margin-top: 20px;
+   width: 350px;
+   height: 250px;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ }
+ 
+ .card-profile {
+   display: flex;
+   gap: 20px;
+   margin-bottom: 30px;
+ }
+ 
+ .card-profile .img {
+   width: 50px;
+   height: 50px;
+ }
+ 
+ .img img {
+   width: 100%;
+   height: 100%;
+ }
+ /* lokasi */
+ section.lokasi{
+   text-align: center;
+   
+}
+ .map{
+   width: 100%;
+   height: 250px;
+   background-color: gray;
+ }
+ 
+ iframe {
+ width: 100%;
+ height: 100%;
+ }
+ 
+ .icon {
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 50px;
+ }
+ 
+ .icon-img {
+   width: 30px;
+   height: 30px;
+ }
+.phone, .email, .ig{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+/* 
