@@ -1,13 +1,13 @@
-@media screen and (max-width:700px) {
+@media screen and (max-width:768px) {
+    nav{
+        padding: 10px 40px;
+    }
     .baris {
         flex-wrap: wrap;
     }
 
     section {
-        padding-top: 50px;
-        padding-bottom: 50px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 10px 50px;
     }
 
     nav .baris {
@@ -37,9 +37,13 @@
     .best-seller .produk {
         width: 50%;
     }
-
+    .review .baris{
+        flex-direction: column;
+        gap: 10px;
+    }
+    
     .review .baris .testimoni {
-        width: 100%;
+       
         margin-bottom: 30px;
     }
 

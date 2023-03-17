@@ -220,10 +220,10 @@ section.about-us {
 }
 
 .review .baris .testimoni {
-    width: 30%;
+    width: 350px;
     height: 360px;
     border-radius: 10px;
-    padding: 35px 50px;
+    padding: 35px;
     box-shadow: 0px 0px 12px -10px #000;
     background-color: #fff;
 }
